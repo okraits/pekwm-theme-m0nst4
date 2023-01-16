@@ -4,14 +4,14 @@
 # Date: 02.03.2005
 # Updated: 27.01.2021
 
-$FONT = "X11#-*-nu-*-*-*-*-*-*-*-*-*-*-*-*"
+$FONT = "Sans:size=8"
 
 PDecor {
 
 Decor = "DEFAULT" {
 	Title {
 		Height = "14"
-		Pad = "0 0 4 0"
+		Pad = "1 0 4 0"
 
 		Focused = "Image win-fo.xpm"
 		Unfocused = "Image win-un.xpm"
@@ -140,7 +140,7 @@ Menu {
     Text = "#000000"
   }
 
-  Pad = "2 2 2 2"
+  Pad = "4 2 2 2"
 }
 
 CmdDialog {
